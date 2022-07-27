@@ -16,7 +16,7 @@ def read_user_cli_args():
         default=[],
         help="enter one or more website URLs",
     )
-    return parser.parse_args()
+    
     parser.add_argument(
         "-f",
         "--input-file",
